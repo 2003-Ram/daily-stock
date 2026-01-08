@@ -4,7 +4,7 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 // Replace with your computer's local IP address for physical devices
 // For Android Emulator, use 'http://10.0.2.2:5000'
 // For iOS Simulator, use 'http://localhost:5000'
-const BASE_URL = 'http://192.168.1.8:5000/api';
+const BASE_URL = 'https://daily-stock-backend.vercel.app/api';
 
 const api = axios.create({
     baseURL: BASE_URL,
